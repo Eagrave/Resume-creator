@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Inter:wght@300&family=Lato&family=Roboto+Condensed&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  height: 100%;
+}
+
+.forms-container {
+  color: #bcb419;
+  align-items: center;
+  text-align: center;
+  padding: 5% 5%;
+  min-height: 100vh;
+  background-color: #030244;
+}
+.forms-container button {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #030244;
+  border: 1px solid #bcb419;
+  border-radius: 5px;
+  padding: 2% 2%;
+  color: #bcb419;
+  cursor: pointer;
+  min-width: 7vw;
+}
+.forms-container h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.input-container h2 {
+  font-size: 2rem;
+}
+.input-container form {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 50%);
+}
+.input-container form div {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.input-container form label {
+  font-size: 1rem;
+}
+.input-container form input, .input-container form select {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+  padding: 1% 1%;
+}
+.input-container form button {
+  width: 60%;
+}
+
+.one-whole-grid-row, .submit-button, .textarea {
+  grid-column: -1/1;
+}/*# sourceMappingURL=App.css.map */
